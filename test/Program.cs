@@ -66,5 +66,3 @@ System.Console.WriteLine(phrase2.IndexOf("bruce"));//若找尋的字串不存在
 //切割字串 .Substring(位置)
 System.Console.WriteLine(phrase2.Substring(6));//從第六位開始切割
 System.Console.WriteLine(phrase2.Substring(6, 3));//從第六位切割後，往後數三個位置
-
-System.Console.WriteLine(phrase + phrase2 + phrase3);
