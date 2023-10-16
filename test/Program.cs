@@ -104,3 +104,7 @@ System.Console.WriteLine(System.Math.Min(100, 1000));//回傳小
 
 //四射五入 System.Math.Round()
 System.Console.WriteLine(System.Math.Round(3.8));
+
+//取得用戶輸入
+
+ System.Console.ReadLine();
