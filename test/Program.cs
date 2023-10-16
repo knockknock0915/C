@@ -25,11 +25,11 @@ System.Console.WriteLine(name + height + "公分");
 name = "bruce";
 System.Console.WriteLine("英文名字是:" + name);
 
-
+//字串常見用法
 string phrase = "hello";
 System.Console.WriteLine(phrase + "world!");
 
-//字串常見用法
+
 System.Console.WriteLine(phrase + "world!");
 
 //換行 \n
@@ -66,3 +66,41 @@ System.Console.WriteLine(phrase2.IndexOf("bruce"));//若找尋的字串不存在
 //切割字串 .Substring(位置)
 System.Console.WriteLine(phrase2.Substring(6));//從第六位開始切割
 System.Console.WriteLine(phrase2.Substring(6, 3));//從第六位切割後，往後數三個位置
+
+//數字常見用法(int整數 double浮點數)
+
+//加法
+System.Console.WriteLine(5+2);
+
+//減法
+System.Console.WriteLine(5-2);
+
+//乘法
+System.Console.WriteLine(5*2);
+
+//除法
+System.Console.WriteLine(5/2); //整數與整數做運算，則會回傳整數
+System.Console.WriteLine(5/2.0);//整數與浮點數做運算，則會回傳浮點數
+
+//連續運算
+System.Console.WriteLine(5+2*3);//C#依然遵循先乘除後加減
+System.Console.WriteLine((5+2)* 3);
+
+int num = 3;
+System.Console.WriteLine(5+2*num);
+
+//絕對值 System.Math.Abs()
+System.Console.WriteLine(System.Math.Abs(-10));
+
+//次方  System.Math.Pow()
+System.Console.WriteLine(System.Math.Pow(10,3));//前填需要次方之值，後填次方
+
+//開根號 System.Math.Sqrt()
+System.Console.WriteLine(System.Math.Sqrt(100));
+
+//比大小 System.Math.Max() / System.Math.Min()
+System.Console.WriteLine(System.Math.Max(100,1000));//回傳大
+System.Console.WriteLine(System.Math.Min(100, 1000));//回傳小
+
+//四射五入 System.Math.Round()
+System.Console.WriteLine(System.Math.Round(3.8));
